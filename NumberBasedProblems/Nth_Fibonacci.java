@@ -12,12 +12,17 @@ public class Nth_Fibonacci {
 		int first = 0;
 		int second = 1;
 		int ans = 0;
-		for(int i=1;i<a;i++) {
-			ans = first + second;
-			first = second;
-			second = ans;
+		if (a == 1) {
+			ans = first; 
+		} else {
+			for (int i = 2; i <= a; i++) {
+				ans = first + second;
+				first = second;
+				second = ans;
+			}
 		}
 		System.out.println("Fibonacci: "+ans);
+		in.close();
 	}
 
 }

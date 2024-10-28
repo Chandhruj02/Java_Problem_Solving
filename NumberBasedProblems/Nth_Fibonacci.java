@@ -1,0 +1,23 @@
+package JavaProblems.NumberBasedProblems;
+
+import java.util.Scanner;
+
+public class Nth_Fibonacci {
+
+	public static void main(String[] args) {
+		System.out.println("Fibonacci of the Nth Number");
+		System.out.println("Enter a number: ");
+		Scanner in =new Scanner(System.in);
+		int a = in.nextInt();
+		int first = 0;
+		int second = 1;
+		int ans = 0;
+		for(int i=1;i<a;i++) {
+			ans = first + second;
+			first = second;
+			second = ans;
+		}
+		System.out.println("Fibonacci: "+ans);
+	}
+
+}

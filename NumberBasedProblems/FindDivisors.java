@@ -22,6 +22,7 @@ public class FindDivisors {
 		}
 		Collections.sort(divisors);
 		System.out.println(divisors);
+		in.close();
 	}
 
 }

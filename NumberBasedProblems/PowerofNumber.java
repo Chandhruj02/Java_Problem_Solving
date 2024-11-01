@@ -13,5 +13,6 @@ public class PowerofNumber {
 		int powervalue = in.nextInt();
 		int powerednum = (int)Math.pow(number,powervalue);  
 		System.out.println("Power of numbers "+number+"^"+powervalue+" is: "+ powerednum);
+		in.close();
 	}
 }

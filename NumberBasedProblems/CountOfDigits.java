@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-package JavaProblems.NumberBasedProblems;
-=======
 package NumberBasedProblems;
->>>>>>> da935b2 (Resynced local files with remote)
 
 import java.util.Scanner;
+
 
 public class CountOfDigits {
 

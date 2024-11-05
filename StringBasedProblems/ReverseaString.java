@@ -1,10 +1,10 @@
-package stringBasedProblems;
+package StringBasedProblems;
 
 public class ReverseaString {
 
 	public static void main(String[] args) {
-		System.out.println("Reversea a String");
-
+		System.out.println("Reverse a String");
+		
 	}
-
+	
 }
